@@ -1,0 +1,62 @@
+article{
+border: solid;
+border-width: 1px;
+background-color:#FFFFF7;
+padding-bottom: 20px;
+border-radius: 25px;
+  
+}
+
+body{
+    background-color: #dbdde6;
+}
+
+
+section{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+  
+}
+
+
+
+button{
+    border-radius: 25px;
+}
+
+.edit{
+    background-color: rgb(210, 147, 30);
+    color: white;
+}
+
+.delete{
+    background-color: rgb(221, 117, 105) ;
+    color: white
+}
+
+.addUser{
+    border: dotted;
+    border-color: blue;
+    display: flex;
+    flex-direction: column;
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   gap: 15px;
+   height: 240px;
+   background-color: white;
+}
+
+.addUser:hover{
+    scale: 1.1;
+}
+
+.add{
+    background-color: #6495ED
+    ;
+}
